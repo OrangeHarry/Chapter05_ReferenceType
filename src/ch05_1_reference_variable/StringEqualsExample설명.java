@@ -19,5 +19,10 @@ public class StringEqualsExample설명 {
 		System.out.println(System.identityHashCode(str2));
 		System.out.println(System.identityHashCode(str3));
 		System.out.println(System.identityHashCode(str4));
+		
+		String v1 = "";   //값없이 초기화 할때 많이 쓰임
+		String v2 = null; //둘이 다른거야
+		System.out.println(v1);
+		System.out.println(v2);
 	}
 }
