@@ -3,7 +3,7 @@ package ch05_2_array;
 public class ArrayCreateByValueListExample1 {
 	public static void main(String[] args) {
 //		int[] scores = { 83, 90, 87 }; //배열은 new 안쓰고도 쓸 수가 있징
-		int[] scores = new int[3]; //값을 미리 배정하고 싶을 때는 new연산자를 사용!!
+		int[] scores = new int[4]; // 값을 미리 배정하고 싶을 때는 new연산자를 사용!!
 		scores[0] = 83;
 		scores[1] = 90;
 		scores[2] = 87;
