@@ -12,7 +12,7 @@ public class StringEqualsExample설명 {
 
 		String str3 = new String("java"); // new 키워드는 델리게이션 객체에 새로 올린다는 의미이다. //new하면 메모리를 새로 할당받아서 그것을 사용하는거
 		String str4 = new String("java"); // 그러므로 둘은 다른 객체이다.
-		System.out.println(str3 == str4); // 똑같은 아파트에 똑같은 동 호수에 똑같은 거닝??ㅎㅎ
+		System.out.println(str3 == str4); // 똑같은 아파트에 똑같은 동 호수에 똑같은 거닝??아니지
 		System.out.println((str3.equals(str4))); // 문자열비교
 		
 		System.out.println(System.identityHashCode(str1)); //주소값
