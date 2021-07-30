@@ -13,7 +13,7 @@ public class AdvancedForExample {
 //		}
 		System.out.println("Á¡¼ö ÃÑÇÕ = " + sum);
 
-		double avg = (double) sum / 5;
+		double avg = (double) sum / scores.length;
 		System.out.println("Æò±Õ = " + avg);
 	}
 }
