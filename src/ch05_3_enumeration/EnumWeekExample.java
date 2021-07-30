@@ -23,9 +23,9 @@ public class EnumWeekExample {
 
 		System.out.println("오늘 요일 = " + today);
 		if(today == Week.FRIDAY) {
-			System.out.println("불금엔 공부지~");
+			System.out.println("불금엔 자바~");
 		}else {
-			System.out.println("다른요일도 공부지~");
+			System.out.println("다른요일도 자바~...");
 		}
 	}
 }

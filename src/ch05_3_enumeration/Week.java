@@ -7,6 +7,5 @@ public enum Week {
 	THURSDAY,
 	FRIDAY,
 	SATURDAY,
-	SUNDAY
-
+	SUNDAY // 마지막에 ; 붙이지 않는다.
 }
