@@ -20,6 +20,7 @@ public class ArrayMinMaXExample {
 		System.out.println(minValue(myMinde));
 	}
 
+	
 	public static int maxValue(int[] ar) { // 왜 arr이 아닌 ar로 해도 되는거지?? 아 어차피 다른 메소드라 하나 생성을 해준거구나, ar로 다른 배열 필드를 받아아라?
 //		int max = 0; //0으로 초기화 하면 음수 들만 있을때 최댓값이 아닌 그냥 0만 찍힌다.
 //		int max = Integer.MIN_VALUE; //인텐져 함수를 이용, (정수로 표현할 수 있는 가장 작은값!!)
